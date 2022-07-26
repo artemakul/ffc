@@ -1,0 +1,23 @@
+@use '../abstracts/_vars' as *
+
+@mixin titles($font-size, $line-height)
+  font-family: 'Dewi Expanded', sans-serif
+  font-style: normal
+  font-weight: 900
+  font-size: $font-size
+  line-height: $line-height
+  text-transform: uppercase
+  color: $white
+  &.black
+    color: $black
+
+
+@mixin text($font-family, $font-weight, $font-size, $line-height)
+  font-family: $font-family, sans-serif
+  font-style: normal
+  font-weight: $font-weight
+  font-size: $font-size
+  line-height: $line-height
+  color: $black
+  &.white
+    color: $white
