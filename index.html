@@ -5,10 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-  <link rel="stylesheet" href="sass/style.css">  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">  
 </head>
 <body>
+
+  
 
   <div class="global-wrapper">
 
@@ -68,19 +71,62 @@
       </div>
     </header>
 
-
-
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero__title">
-          Воспитание юного спортсмена
-        </h1>
-        <h2 class="hero__desc">
-          Это не только физическая подготовка. Для детей и подростков процесс важнее результата, поэтому мы создаём атмосферу, в которой ребенок не боится ошибаться, рисковать и принимать решения, чтобы выявить сильные стороны и научиться их использовать.
-        </h2>
+    <!-- Slider main container -->
+    <div class="swiper hero-swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide swiper-1 hero">
+          <div class="container">
+            <h1 class="hero__title">Воспитание юного спортсмена</h1>
+            <p class="text-3 white hero__desc">
+              Это не только физическая подготовка. Для детей и подростков процесс важнее результата, поэтому мы создаём атмосферу, в которой ребенок не боится ошибаться, рисковать и принимать решения, чтобы выявить сильные стороны и научиться их использовать.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-2 hero">
+          <div class="container">
+            <h1 class="hero__title">Воспитание юного спортсмена</h1>
+            <p class="text-3 white hero__desc">
+              Это не только физическая подготовка. Для детей и подростков процесс важнее результата, поэтому мы создаём атмосферу, в которой ребенок не боится ошибаться, рисковать и принимать решения, чтобы выявить сильные стороны и научиться их использовать.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-3 hero">
+          <div class="container">
+            <h1 class="hero__title">Воспитание юного спортсмена</h1>
+            <p class="text-3 white hero__desc">
+              Это не только физическая подготовка. Для детей и подростков процесс важнее результата, поэтому мы создаём атмосферу, в которой ребенок не боится ошибаться, рисковать и принимать решения, чтобы выявить сильные стороны и научиться их использовать.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-4 hero">
+          <div class="container">
+            <h1 class="hero__title">Воспитание юного спортсмена</h1>
+            <p class="text-3 white hero__desc">
+              Это не только физическая подготовка. Для детей и подростков процесс важнее результата, поэтому мы создаём атмосферу, в которой ребенок не боится ошибаться, рисковать и принимать решения, чтобы выявить сильные стороны и научиться их использовать.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
-  
+      <!-- If we need pagination -->
+      <div class="hero-swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+      <div class="hero__bottom">
+        <button class="btn btn_black">Выбрать вид спорта</button>
+        <button class="btn btn_white">Пробное занятие</button>
+      </div>
+    </div>
+
+
+    
+    
     <section class="sports">
       <div class="container">
         <div class="sports__grid">
@@ -170,84 +216,514 @@
             <div class="advantages__icon">
               <img src="src/icons/arenas.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Собственные манежи мирового уровня
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/light.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Новое техническое оснащение
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/shapes.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Уникальные методики
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/smile.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Удобный сервис
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/arenas-sm.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Локации рядом с домом по всей Москве
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/hearth.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Ментальное и физическое развитие каждого ребенка
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/compititions.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Участие в официальных соревнованиях
-            </div>
+            </p>
           </div>
 
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="src/icons/treners.svg" alt="">
             </div>
-            <div class="advantages__desc">
+            <p class="text-5 advantages__desc">
               Лицензированный тренерский состав (профессиональные тренеры)
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="academies">
+      <div class="container">
+        <h3> Академии </h3>
+        <div class="academies__map" style=" display: flex; align-items: center; justify-content: center;">
+          здесь будет карта
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="sport-fscreen">
+      <div class="container">
+        <div class="sport-fscreen__img">
+          <img src="/src/img/sport-full-screen.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="prices">
+      <div class="container">
+        <div class="prices__grid">
+
+          <div class="prices__item">
+            <h3 class="prices__title">Цены</h3>
+            <ul class="prices__list">
+              <li>
+                Занятия круглый год на большой и малой арене из натурального льда
+              </li>
+              <li>
+                Для детей 3-16 лет разного уровня подготовки
+              </li>
+              <li>
+                Опытный тренерский состав
+              </li>
+            </ul>
+
+            <div class="prices__prices">
+              <p class="prices__desc">
+                Стоимость пробного занятия
+              </p>
+              <p class="prices__price">
+                1500 ₽
+              </p>
+            </div>
+            <div class="price__button">
+              <button class="btn btn_black">Записаться</button>
+            </div>
+          </div>
+
+          <div class="prices__item subscription">
+            <h3 class="prices__title">Футбол 2022</h3>
+            
+            <div class="subscription__item">
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Абонемент на</p>
+                <h4 class="black subscription__desc">4 тренировки</h4>
+              </div>
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Срок действия 30 дней</p>
+                <h4 class="black subscription__desc">5 600 ₽</h4>
+              </div>
+            </div>
+            <div class="subscription__item">
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Абонемент на</p>
+                <h4 class="black subscription__desc">8 тренировок</h4>
+              </div>
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Срок действия 30 дней</p>
+                <h4 class="black subscription__desc">8 400 ₽</h4>
+              </div>
+            </div>
+            <div class="subscription__item">
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Абонемент на</p>
+                <h4 class="black subscription__desc">15 тренировок</h4>
+              </div>
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Срок действия 30 дней</p>
+                <h4 class="black subscription__desc">15 700 ₽</h4>
+              </div>
+            </div>
+            <div class="subscription__item">
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Абонемент на</p>
+                <h4 class="black subscription__desc">32 тренировки</h4>
+              </div>
+              <div class="subscription__prices">
+                <p class="text-6 subscription__title">Срок действия 30 дней</p>
+                <h4 class="black subscription__desc">32 700 ₽</h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="reviews">
+      <div class="container">
+        <h1 class="reviews__title text-center">Отзывы</h1>
+        <div dir="rtl" class="swiper reviews-swiper">
+          <div class="swiper-wrapper">
+            
+
+            <div class="swiper-slide reviews-item reviews-item__subscribe">
+              <div class="subscribe-item">
+                <p class="subscribe-item__desc">
+                  Следи за новостями в telegram
+                </p>
+                <div class="subscribe-item__icon">
+                  <img class="subscribe-item__img" src="src/icons/telegram-icon.svg" alt="">
+                </div>
+              </div>
+              <div class="subscribe-item">
+                <p class="subscribe-item__desc">
+                  Следи за новостями в telegram
+                </p>
+                <div class="subscribe-item__icon">
+                  <img class="subscribe-item__img" src="src/icons/telegram-icon.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide reviews-item reviews-item_top reviews-item__video">
+              <div class="img-container">
+                <img class="img-container__img" src="src/img/review-2.jpg" alt="">
+                <img class="img-container__play-btn" src="src/icons/play.svg" alt="">
+              </div>
+              <div class="reviews-item__username">Саша, 10 лет</div>
+            </div>
+            
+
+            <div class="swiper-slide reviews-item reviews-item_bottom reviews-item__video">
+              <div class="img-container">
+                <img class="img-container__img" src="src/img/review-1.jpg" alt="">
+                <img class="img-container__play-btn" src="src/icons/play.svg" alt="">
+              </div>
+              <div class="reviews-item__username">Татьяна</div>
+            </div>
+            
+
+
+
+            <div class="swiper-slide reviews-item reviews-item__subscribe">
+              <div class="subscribe-item">
+                <p class="subscribe-item__desc">
+                  Следи за новостями в telegram
+                </p>
+                <div class="subscribe-item__icon">
+                  <img class="subscribe-item__img" src="src/icons/telegram-icon.svg" alt="">
+                </div>
+              </div>
+              <div class="subscribe-item">
+                <p class="subscribe-item__desc">
+                  Следи за новостями в telegram
+                </p>
+                <div class="subscribe-item__icon">
+                  <img class="subscribe-item__img" src="src/icons/telegram-icon.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide reviews-item reviews-item_top reviews-item__video">
+              <div class="img-container">
+                <img class="img-container__img" src="src/img/review-2.jpg" alt="">
+                <img class="img-container__play-btn" src="src/icons/play.svg" alt="">
+              </div>
+              <div class="reviews-item__username">Саша, 10 лет</div>
+            </div>
+            
+
+            <div class="swiper-slide reviews-item reviews-item_bottom reviews-item__video">
+              <div class="img-container">
+                <img class="img-container__img" src="src/img/review-1.jpg" alt="">
+                <img class="img-container__play-btn" src="src/icons/play.svg" alt="">
+              </div>
+              <div class="reviews-item__username">Татьяна</div>
+            </div>
+
+            <div class="swiper-slide reviews-item reviews-item_top reviews-item__video">
+              <div class="img-container">
+                <img class="img-container__img" src="src/img/review-2.jpg" alt="">
+                <img class="img-container__play-btn" src="src/icons/play.svg" alt="">
+              </div>
+              <div class="reviews-item__username">Саша, 10 лет</div>
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="sport-video-preview">
+      <div class="container">
+        <div class="sport-video-preview__img">
+          <div class="play-btn">
+            <img src="/src/icons/play.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="summer-camp" style="margin-top: 150px;">
+      <div class="container">
+        <h1>Летний лагерь</h1>
+        <div style="height: 500px;background: orange;display: flex;align-items: center;justify-content: center;color: #fff;font-family: 'Dewi Regular';font-size: 2em;">
+          <p>Согласовывается</p>
+        </div>
+      </div>
+    </section>
+ 
+
+
+
+
+
+
+    <section class="slider-teams">
+      <div class="container">
+        <div class="swiper swiper-teams">
+          <div class="swiper-wrapper">           
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/2.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/3.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/4.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/5.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-3/5.jpg" alt="">
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="summer-camp" style="margin-top: 150px;">
+      <div class="container">
+        <h1>Выездные сборы</h1>
+        <div style="height: 500px;background: orange;display: flex;align-items: center;justify-content: center;color: #fff;font-family: 'Dewi Regular';font-size: 2em;">
+          <p>Согласовывается</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="slider-football">
+      <div class="container">
+        <div class="swiper swiper-football">
+          <div class="swiper-wrapper">           
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/2.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/3.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/4.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/5.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide swiper-teams__item">
+              <img class="swiper-teams__img" src="src/img/slider-4/5.jpg" alt="">
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback__wrapper">
+          <div class="feedback__header">
+            <h3 class="feedback__title black">
+              Остались вопросы?
+            </h3>
+            <p class="feedback__desc">
+              Оставьте контакты и наши менеджеры вас проконсультируют
+            </p>
+          </div>
+          <div class="feedback__form">
+            <form action="" class="form">
+              <input type="text" placeholder="Ваше имя">
+              <input type="text" placeholder="амсаиаи">
+              <input type="submit">
+            </form>
+            <p class="feedback__agreement">
+              Нажимая кнопку «Отправить», я соглашаюсь с условиями <a href="#"> обработки персональных данных </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__item footer__left">
+
+            <h3 class="footer__phone white">+7 495 186 62 55</h3>
+            <p>
+              <a class="footer__link" href="mailto:school@citysport.pro">
+                school@citysport.pro
+              </a>
+            </p>
+            <div class="footer__socials socials">
+              <div class="socials__item">
+                <img class="logo socials__tg" src="/src/icons/telegram-icon.svg" alt="">
+              </div>
+              <div class="socials__item">
+                <img class="logo socials__wa" src="/src/icons/whatsapp-icon.svg" alt="">
+              </div>
+              <div class="socials__item">
+                <img class="logo socials__fb" src="/src/icons/fb.svg" alt="">
+              </div>
+              <div class="socials__item">
+                <img class="logo socials__vk" src="/src/icons/vk.svg" alt="">
+              </div>
+              <div class="socials__item">
+                <img class="logo socials__yt" src="/src/icons/yt.svg" alt="">
+              </div>
+              <div class="socials__item">
+                <img class="logo socials__zen" src="/src/icons/zen.svg" alt="">
+              </div>
+            </div>
+
+            <div class="agreement">
+              <div class="agreement__item">
+                ООО "СПОРТ ПЛЮС" ИНН 7722810381 ОГРН 1137746480630
+              </div>
+              <div class="agreement__item">
+                <a class="agreement__link" href="#">
+                  Правила клуба и согласие на обработку персональных данных
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="footer__item footer__right">
+            <h3 class="footer__download white">
+              Для оплаты абонемента скачайте приложение FFC
+            </h3>
+
+            <div class="footer__apps apps">
+              <div class="apps__item">
+                <a class="apps__link" href="#">
+                  <img class="logo apps__tg" src="/src/icons/apple.svg" alt="">
+                </a>
+              </div>
+              <div class="apps__item">
+                <a class="apps__link" href="#">
+                  <img class="logo apps__wa" src="/src/icons/googleStore.svg" alt="">
+                </a>
+              </div>
+              
             </div>
           </div>
 
         </div>
-        
       </div>
-    </section>
+    </footer>
 
+    
   </div>
+
+
+
+
+
+
+
+
+
+
 
   <!-- 
     пока что использую cdn чтобы было проще переносить на фронт - тут есть версии для всех фреймворков https://swiperjs.com
    -->
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,55 @@
+@use '../abstracts/_vars' as *
+  
+.hero-swiper
+  width: 100%
+  .swiper-slide
+    min-height: 890px
+    display: flex
+    align-items: center
+  .swiper
+    &-1
+      background: url("../src/img/hero.jpg") no-repeat center center
+      background-size: cover
+    &-2
+      background: url("https://images.unsplash.com/photo-1494177310973-4841f7d5a882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80") no-repeat center center
+      background-size: cover
+    &-3
+      background: url("https://images.unsplash.com/photo-1651140753772-c12fdcd7077d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center center
+      background-size: cover
+    &-4
+      background: url("https://images.unsplash.com/photo-1445251836269-d158eaa028a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80") no-repeat center center
+      background-size: cover
+  &-pagination
+    &.swiper-pagination
+      &-bullets
+        z-index: 9
+        position: absolute
+        bottom: 158px
+        left: 0px
+        width: 100%
+        display: flex
+        margin-left: 36px
+        gap: 5px
+        .swiper-pagination-bullet
+          background: $white
+          margin: 0
+          width: 68px
+          height: 8px
+          clip-path: polygon(0 0, 100% 0, 100% 50%, 72% 100%, 0 100%)
+          border-radius: 0
+          background: $white
+          opacity: 0.5
+          &-active
+            opacity: 1
+      
+
+
+
+  // .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction
+
+
+
+
+
+
+

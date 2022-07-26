@@ -1,0 +1,147 @@
+const swiper = new Swiper('.hero-swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  
+  // autoplay
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.hero-swiper-pagination',
+  },
+
+  // Navigation arrows
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
+
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const swiper2 = new Swiper(".reviews-swiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 186,
+    },
+  },
+  
+  
+  
+  // direction: 'horizontal',
+  // loop: true,
+  
+  // // autoplay
+  // // autoplay: {
+  // //   delay: 3500,
+  // //   disableOnInteraction: false,
+  // // },
+
+  // // If we need pagination
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
+
+  // // Navigation arrows
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
+
+  // // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+});
+
+
+
+
+
+
+
+const swiper3 = new Swiper(".swiper-teams", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 186,
+    },
+  },
+});
+
+
+
+const swiper4 = new Swiper(".swiper-football", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 186,
+    },
+  },
+});
+
+
+
