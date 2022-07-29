@@ -145,3 +145,48 @@ const swiper4 = new Swiper(".swiper-football", {
 
 
 
+
+
+const swiper5 = new Swiper('.modal-swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.modal-swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.modal-swiper-button-next',
+    prevEl: '.modal-swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.modal-swiper-scrollbar',
+  },
+});
+
+
+
+
+let currentSlider = document.querySelectorAll('.sport-fscreen__bg')
+let modal = document.querySelector('#modal')
+let closeBtn = document.querySelector('.close')
+
+for(let i = 0; i < currentSlider.length; i++){
+  currentSlider[i].onclick = function(){
+    modal.classList.add('show');
+  }
+}
+closeBtn.onclick = function(){
+  modal.classList.remove('show');
+}
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.classList.remove('show');
+  }
+}

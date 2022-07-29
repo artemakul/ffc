@@ -1,6 +1,7 @@
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="5">
-<path id="Rectangle 30" d="M75.467 22.5C74.6824 40.3054 59.9989 54.5 42 54.5L39 54.5C21.0011 54.5 6.31757 40.3054 5.53298 22.5L75.467 22.5Z" stroke="white" stroke-width="3"/>
-<path id="Rectangle 31" d="M22.5634 78.5C23.3242 69.5372 30.8403 62.5 40 62.5H41C50.1597 62.5 57.6758 69.5372 58.4366 78.5H22.5634Z" stroke="white" stroke-width="3"/>
+<path id="big" d="M42 54.5L39 54.5C21.0011 54.5 6.31757 40.3054 5.53298 22.5L75.467 22.5C74.6824 40.3054 59.9989 54.5 42 54.5Z" stroke="white" stroke-width="3"/>
+<path id="small" d="M40 62.5H41C50.1597 62.5 57.6758 69.5372 58.4366 78.5H22.5634C23.3242 69.5372 30.8403 62.5 40 62.5Z" stroke="white" stroke-width="3"/>
+<path id="star" d="M50 12L51.8455 19.1545L59 21L51.8455 22.8455L50 30L48.1545 22.8455L41 21L48.1545 19.1545L50 12Z" fill="white"/>
 </g>
 </svg>

@@ -1,34 +1,35 @@
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="7" clip-path="url(#clip0_701_315)">
-<circle id="Ellipse 10" cx="40" cy="40" r="11.5" stroke="white" stroke-width="3"/>
-<g id="Line 8 (Stroke)">
-<path id="Line 8 (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M32.4944 13.2378L47.5056 5.00451L49.5056 8.29541L34.4944 16.5287L32.4944 13.2378Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_3">
-<path id="Line 8 (Stroke)_4" fill-rule="evenodd" clip-rule="evenodd" d="M66.7621 32.4945L74.9954 47.5056L71.7045 49.5056L63.4712 34.4945L66.7621 32.4945Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_5">
-<path id="Line 8 (Stroke)_6" fill-rule="evenodd" clip-rule="evenodd" d="M49.5056 66.7622L34.4944 74.9955L32.4944 71.7046L47.5056 63.4713L49.5056 66.7622Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_7">
-<path id="Line 8 (Stroke)_8" fill-rule="evenodd" clip-rule="evenodd" d="M13.2379 49.5055L5.00458 34.4944L8.29547 32.4944L16.5288 47.5055L13.2379 49.5055Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_9">
-<path id="Line 8 (Stroke)_10" fill-rule="evenodd" clip-rule="evenodd" d="M53.3849 15.887L69.5876 20.2285L68.5857 23.9675L52.3831 19.6261L53.3849 15.887Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_11">
-<path id="Line 8 (Stroke)_12" fill-rule="evenodd" clip-rule="evenodd" d="M64.113 53.3847L59.7715 69.5873L56.0325 68.5854L60.374 52.3828L64.113 53.3847Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_13">
-<path id="Line 8 (Stroke)_14" fill-rule="evenodd" clip-rule="evenodd" d="M27.5276 65.0251L11.325 60.6836L12.3269 56.9446L28.5295 61.2861L27.5276 65.0251Z" fill="white"/>
-</g>
-<g id="Line 8 (Stroke)_15">
-<path id="Line 8 (Stroke)_16" fill-rule="evenodd" clip-rule="evenodd" d="M14.9747 27.5277L19.3162 11.325L23.0552 12.3269L18.7138 28.5295L14.9747 27.5277Z" fill="white"/>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_701_315">
-<rect width="80" height="80" fill="white"/>
-</clipPath>
-</defs>
+  <g id="7" clip-path="url(#clip0_478_180)">
+    <circle id="Ellipse 10" cx="40" cy="40" r="11.5" stroke="white" stroke-width="3"/>
+    
+    <g id="Line 8 (Stroke)">
+      <path id="Line 8 (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M32.4944 13.2378L47.5056 5.00451L49.5056 8.29541L34.4944 16.5287L32.4944 13.2378Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_3">
+      <path id="Line 8 (Stroke)_4" fill-rule="evenodd" clip-rule="evenodd" d="M66.7621 32.4945L74.9954 47.5056L71.7045 49.5056L63.4712 34.4945L66.7621 32.4945Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_5">
+      <path id="Line 8 (Stroke)_6" fill-rule="evenodd" clip-rule="evenodd" d="M49.5056 66.7622L34.4944 74.9955L32.4944 71.7046L47.5056 63.4713L49.5056 66.7622Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_7">
+      <path id="Line 8 (Stroke)_8" fill-rule="evenodd" clip-rule="evenodd" d="M13.2379 49.5055L5.00458 34.4944L8.29547 32.4944L16.5288 47.5055L13.2379 49.5055Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_9">
+      <path id="Line 8 (Stroke)_10" fill-rule="evenodd" clip-rule="evenodd" d="M53.3849 15.887L69.5876 20.2285L68.5857 23.9675L52.3831 19.6261L53.3849 15.887Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_11">
+      <path id="Line 8 (Stroke)_12" fill-rule="evenodd" clip-rule="evenodd" d="M64.113 53.3847L59.7715 69.5873L56.0325 68.5854L60.374 52.3828L64.113 53.3847Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_13">
+      <path id="Line 8 (Stroke)_14" fill-rule="evenodd" clip-rule="evenodd" d="M27.5276 65.0251L11.325 60.6836L12.3269 56.9446L28.5295 61.2861L27.5276 65.0251Z" fill="white"/>
+    </g>
+    <g id="Line 8 (Stroke)_15">
+      <path id="Line 8 (Stroke)_16" fill-rule="evenodd" clip-rule="evenodd" d="M14.9747 27.5277L19.3162 11.325L23.0552 12.3269L18.7138 28.5295L14.9747 27.5277Z" fill="white"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_478_180">
+    <rect width="80" height="80" fill="white"/>
+    </clipPath>
+  </defs>
 </svg>
