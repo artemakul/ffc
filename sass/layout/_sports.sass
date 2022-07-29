@@ -1,6 +1,9 @@
 @use '../abstracts/_vars' as *
 
 .sports
+  &__arrow
+    img
+      transition: all 200ms ease
   &__grid
     display: grid
     grid-template-columns: repeat(3, 1fr)
@@ -27,8 +30,9 @@
         img
           width: 100%
           border-radius: 180px
-  &__list
-    list-style-type: square
+      .sports__arrow
+        img
+          transform: rotate(-45deg)
   &__title
     font-style: normal
     font-weight: 900
@@ -48,6 +52,7 @@
       object-fit: cover
   &__list
     &-item
+      list-style-type: square
       font-style: normal
       font-weight: 900
       font-size: 18px
