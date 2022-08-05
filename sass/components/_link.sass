@@ -1,0 +1,18 @@
+@use '../abstracts/_vars' as *
+  
+.link
+  position: relative
+  color: $white
+  text-decoration: none
+  &_black
+    color: $black
+  &::after
+    content: ""
+    position: absolute
+    width: 100%
+    display: block
+    background: #646464
+    height: 1px
+    bottom: -1px
+    left: 0
+    

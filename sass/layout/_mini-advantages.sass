@@ -1,0 +1,24 @@
+@use '../abstracts/_vars' as *
+
+.mini-advantages
+  margin-top: 140px
+  &__header
+    margin-bottom: 120px
+  &__subgrid
+    display: flex
+    flex-direction: column
+    gap: 25px
+    align-items: start
+  &__grid
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 25px
+    .item
+      background: #121212
+      padding: 52px 52px 40px
+      display: flex
+      flex-direction: column
+      gap: 60px
+      .img
+        img
+          border-radius: 250px

@@ -1,0 +1,52 @@
+@use '../abstracts/_vars' as *
+
+
+.feedback
+  margin-top: 130px
+  &__agreement
+    margin-top: 20px
+    font-family: 'Dewi Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 150%
+    letter-spacing: 0.02em
+    color: #646464
+    a
+      color: inherit
+      position: relative
+      text-decoration: none
+      &::after
+        content: ""
+        position: absolute
+        width: 100%
+        height: 1px 
+        background: #646464 
+        bottom: -1px
+        left: 0
+  &__wrapper
+    min-height: 422px
+    clip-path: polygon(25% 0, 35% 18%, 100% 18%, 100% 100%, 0 100%, 0 0)
+    background: $white
+    display: flex
+    padding: 44px // TODO: Remove Padding
+    gap: 140px
+  &__header
+    max-width: 25%
+  &__title
+    margin-bottom: 44px
+  &__desc
+    font-family: 'Dewi Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    line-height: 150%
+    letter-spacing: 0.02em
+    color: $black
+  &__form
+    display: flex
+    flex-direction: column
+    justify-content: center
+    .form
+      display: flex
+      gap: 25px

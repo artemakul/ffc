@@ -1,0 +1,118 @@
+@use '../abstracts/_vars' as *
+
+.application
+  margin-top: 150px
+  .form
+    margin: 80px 0
+    &__grid
+      display: grid
+      grid-template-columns: repeat(2, 1fr) 
+      gap: 34px 21px
+    &__item.w100
+      grid-column: 1 / -1
+      input
+        width: 100%
+  &__grid
+    display: grid
+    grid-template-columns: 5fr 7fr
+    grid-auto-rows: auto
+    gap: 25px
+  &__item
+    background: $white
+    &-first
+      padding: 44px
+    &-second
+      clip-path: polygon(34% 0, 44% 9%, 100% 9%, 100% 100%, 0 100%, 0 0)
+      padding: 35px 65px 10px
+  &__title
+    font-family: 'Dewi Expanded'
+    font-style: normal
+    font-weight: 900
+    font-size: 48px
+    line-height: 130%
+    color: #000000
+    flex: none
+    order: 0
+    flex-grow: 0
+    max-width: 85%
+  &__button
+    input
+      width: 100%
+  &__agreement
+    &-text
+      margin-top: 30px
+      font-family: 'Dewi Regular'
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 150%
+      letter-spacing: 0.02em
+      color: #646464
+      .link
+        color: $black
+  &-sub
+    display: flex
+    width: 100%
+    justify-content: space-between
+    border-bottom: 3px solid #EFEFEF
+    padding: 25px 0
+    &__header
+      font-family: 'Dewi Expanded'
+      font-style: normal
+      font-weight: 900
+      font-size: 36px
+      line-height: 130%
+      color: $black
+      flex: none
+      order: 0
+      flex-grow: 0
+      margin-top: 40px
+    &__desc
+      color: $black
+    &__title
+      font-family: 'Dewi Expanded'
+      font-style: normal
+      font-weight: 900
+      font-size: 36px
+      line-height: 130%
+      color: #000000
+      flex: none
+      order: 0
+      flex-grow: 0
+    &__sub
+      margin-top: 5px
+  &-socials
+    display: flex
+    margin-top: 80px
+    gap: 65px
+    &__buttons
+      display: flex
+      gap: 40px
+      .application-socials__button
+        button
+          box-sizing: border-box
+          display: flex
+          flex-direction: row
+          align-items: center
+          padding: 16px 37px 22px
+          gap: 10px
+          background: #fff
+          border: 2px solid #000
+          border-radius: 100px
+          justify-content: center
+          height: 76px
+          svg *
+            fill: #000
+
+     
+
+
+
+// .subscription__item
+//         display: flex
+//         width: 100%
+//         justify-content: space-between
+//         border-bottom: 3px solid #EFEFEF
+//         padding: 25px 0
+//         &__desc
+//           color: $black

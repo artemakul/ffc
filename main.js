@@ -171,6 +171,17 @@ const swiper5 = new Swiper('.modal-swiper', {
 
 
 
+var timeline = new Swiper(".swiper-timeline", {
+  pagination: {
+    el: ".swiper-timeline-pagination",
+    dynamicBullets: true,
+  },
+  slidesPerView: 3,
+  // spaceBetween: 30,
+  freeMode: true,
+});
+
+
 
 let currentSlider = document.querySelectorAll('.sport-fscreen__bg')
 let modal = document.querySelector('#modal')
@@ -190,3 +201,7 @@ window.onclick = function (event) {
     modal.classList.remove('show');
   }
 }
+
+
+
+

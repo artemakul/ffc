@@ -1,0 +1,25 @@
+@use '../abstracts/_vars' as *
+
+
+.sq-list
+  list-style-type: none
+  &__item
+    position: relative
+    padding-left: 30px
+    &::before
+      content: ""
+      position: absolute
+      left: 0
+      width: 10px
+      height: 10px
+      background: $white
+    &-black
+      position: relative
+      padding-left: 30px
+      &::before
+        content: ""
+        position: absolute
+        left: 0
+        width: 10px
+        height: 10px
+        background: $black

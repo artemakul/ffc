@@ -1,0 +1,27 @@
+@use '../abstracts/_vars' as *
+  
+.questions
+  margin-top: 150px
+  &__grid
+    display: grid
+    grid-template-columns: 4fr 8fr
+  
+
+.accordeon
+  &__item
+    border-top: 2px solid $white
+    padding: 35px 30px 50px
+  &__title
+  &__hide
+    display: none
+  &__show
+    display: block
+  &__list
+    margin-top: 45px
+    li
+      margin-bottom: 5px
+      padding-left: 18px
+      &::before
+        top: 10px
+        width: 6px
+        height: 6px

@@ -1,0 +1,58 @@
+@use '../abstracts/_vars' as *
+
+.prices
+  margin-top: 56px
+  &-minicamp
+    .prices__item
+      clip-path: none
+  &__grid
+    display: grid
+    grid-template-columns: 5fr 7fr
+    grid-auto-rows: 770px
+    gap: 20px
+  &__item
+    clip-path: polygon(0 0, 38% 0, 63% 10%, 100% 10%, 100% 38%, 100% 100%, 0 100%)
+    background: $white
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 26px 49px 50px 44px
+    // gap: 71px
+  .subscription
+    clip-path: polygon(0 0, 47% 0, 56% 9%, 100% 9%, 100% 38%, 100% 100%, 0 100%)
+    &__item
+      display: flex
+      width: 100%
+      justify-content: space-between
+      border-bottom: 3px solid #EFEFEF
+      padding: 25px 0
+    &__desc
+      color: $black
+  &__title
+    color: $black
+    margin-bottom: 33px
+  &__list
+    list-style-type: square
+    li
+      font-family: 'Dewi Regular'
+      font-style: normal
+      font-weight: 400
+      font-size: 20px
+      line-height: 160%
+      letter-spacing: 0.02em
+      color: $black
+  &__desc
+    font-family: 'Dewi Expanded'
+    font-style: normal
+    font-weight: 900
+    font-size: 18px
+    line-height: 160%
+    color: $black
+  &__price
+    font-family: 'Dewi Expanded'
+    font-style: normal
+    font-weight: 900
+    font-size: 48px
+    line-height: 130%
+    text-transform: uppercase
+    color: $black
