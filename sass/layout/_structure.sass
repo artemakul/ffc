@@ -3,11 +3,38 @@
   
 .structure
   margin-top: 150px
+  &.structure-cybercamp
+    .structure
+      &__item
+        min-height: 620px
+        box-sizing: border-box
+        &-first
+          background: url('../src/img/cybercamp/slider/1.jpg') no-repeat center center
+          background-size: cover 
+        &-second
+          background: url('../src/img/cybercamp/slider/2.jpg') no-repeat center center
+          background-size: cover 
+        &-third
+          background: url('../src/img/cybercamp/slider/3.jpg') no-repeat center center
+          background-size: cover 
+        &-fourth
+          background: url('../src/img/cybercamp/slider/4.jpg') no-repeat center center
+          background-size: cover 
+
+      &__block
+        text-align: left
+        align-items: flex-end
+      &__title
+        text-align: left
+      &__desc
+        text-align: left
+
+
   &__header
     margin-bottom: 96px
   &__grid
     display: grid
-    grid-template-columns: repeat(12, 1fr)
+    grid-template-columns: repeat(2, 1fr)
     grid-auto-rows: 620px
     gap: 25px
   &__item
@@ -16,11 +43,11 @@
     justify-content: flex-end
     padding: 22px 25px 22px
     &-first
-      grid-column: 1 / 6
-      background: url('../src/img/structure/1.jpg')
+      background: url('../src/img/structure/1.jpg') no-repeat center center
+      background-size: cover 
     &-second
-      grid-column: 6 / 11
-      background: url('../src/img/structure/2.jpg')
+      background: url('../src/img/structure/2.jpg') no-repeat center center
+      background-size: cover 
   &__block
     display: flex
     flex-direction: column
@@ -29,3 +56,16 @@
     gap: 15px
     background: $black
     backdrop-filter: blur(10px)
+
+
+
+.playground-slider.structure-cybercamp.structure 
+  .structure__item-first
+    background: url('../src/img/playground/slider-2/1.jpg') no-repeat center center
+    background-size: cover 
+  .structure__item-second
+    background: url('../src/img/playground/slider-2/2.jpg') no-repeat center center
+    background-size: cover 
+  .structure__item-third
+    background: url('../src/img/playground/slider-2/3.jpg') no-repeat center center
+    background-size: cover 

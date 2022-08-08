@@ -2,6 +2,15 @@
 
 .application
   margin-top: 150px
+  &-cybercamp
+    .application-socials
+      margin-top: 25px
+      gap: 25px
+    .application__grid
+      align-items: start
+  &-football
+    .application__title
+      max-width: 100%
   .form
     margin: 80px 0
     &__grid
@@ -17,20 +26,21 @@
     grid-template-columns: 5fr 7fr
     grid-auto-rows: auto
     gap: 25px
+    
   &__item
     background: $white
     &-first
       padding: 44px
     &-second
       clip-path: polygon(34% 0, 44% 9%, 100% 9%, 100% 100%, 0 100%, 0 0)
-      padding: 35px 65px 10px
+      padding: 35px 65px 20px
   &__title
     font-family: 'Dewi Expanded'
     font-style: normal
     font-weight: 900
     font-size: 48px
     line-height: 130%
-    color: #000000
+    color: $black
     flex: none
     order: 0
     flex-grow: 0
@@ -54,8 +64,23 @@
     display: flex
     width: 100%
     justify-content: space-between
-    border-bottom: 3px solid #EFEFEF
+    border-bottom: 3px solid $light-gray
     padding: 25px 0
+    align-items: center
+    &__list
+      &-item
+        padding-left: 15px
+        &::before
+          background: #000
+          width: 7px
+          height: 7px
+          border-radius: 50%
+          top: 6px
+    &__disable
+      .application-sub__title,
+      .application-sub__desc,
+      .text-6
+        color: $gray
     &__header
       font-family: 'Dewi Expanded'
       font-style: normal
@@ -75,7 +100,7 @@
       font-weight: 900
       font-size: 36px
       line-height: 130%
-      color: #000000
+      color: $black
       flex: none
       order: 0
       flex-grow: 0
@@ -96,23 +121,16 @@
           align-items: center
           padding: 16px 37px 22px
           gap: 10px
-          background: #fff
+          background: $white
           border: 2px solid #000
           border-radius: 100px
           justify-content: center
           height: 76px
           svg *
-            fill: #000
+            fill: $black
 
      
 
-
-
-// .subscription__item
-//         display: flex
-//         width: 100%
-//         justify-content: space-between
-//         border-bottom: 3px solid #EFEFEF
-//         padding: 25px 0
-//         &__desc
-//           color: $black
+.exitfees.application-cybercamp.application
+  .application__grid
+    align-items: unset
