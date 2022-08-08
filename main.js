@@ -171,7 +171,7 @@ const swiper5 = new Swiper('.modal-swiper', {
 
 
 
-var timeline = new Swiper(".swiper-timeline", {
+const timeline = new Swiper(".swiper-timeline", {
   pagination: {
     el: ".swiper-timeline-pagination",
     dynamicBullets: true,
@@ -180,6 +180,39 @@ var timeline = new Swiper(".swiper-timeline", {
   // spaceBetween: 30,
   freeMode: true,
 });
+
+
+
+
+
+
+const structureCybercamp = new Swiper(".structure-swiper", {
+  slidesPerView: 2.5,
+  spaceBetween: 25,
+  freeMode: true,
+});
+
+
+const playgroundHero = new Swiper(".playground-hero-swiper", {
+  slidesPerView: 1.5,
+  spaceBetween: 25,
+  freeMode: true,
+});
+
+const playgroundSlider = new Swiper(".playground-slider", {
+  slidesPerView: 2.5,
+  spaceBetween: 25,
+  freeMode: true,
+});
+
+ 
+
+ 
+
+
+
+
+
 
 
 
